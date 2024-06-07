@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess word game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kadwa&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0px;padding:0px;box-sizing:border-box;
+            
+        }
+ header{
+           
+    background-color:#27ae60;
+    height:15vh;
+    text-align:center;
+    letter-spacing:15px;
+    font-size:1.9rem;
+    line-height:3.2;
+    text-transform:uppercase;
+    text-shadow:1px 2px 2px #ffffff;
+    color:white;
+    font-family: 'Kadwa', serif;
+ }
+ section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:85vh;
+  background-color:#2ed573;
+ }
+
+     .btn{
+        outline:none;
+        font-size:1.4rem;
+        border-radius:2px solid black;
+        outline:none;
+          
+     }
+
+     .msg{
+        height:50px;
+        width:50%;
+     }
+     .game-area{
+        display:flex;
+        flex-direction:column;
+        background-color:#00d2d3;
+        
+        
+        height:50px;
+        width:50%;
+    
+     }
+
+    </style>
+</head>
+<body>
+    <header>Guess the word game</header>
+    <section >
+        <div class="game-area">
+       <h1 class="msg"></h1>
+       <input type="text" class="hidden">
+       <button class="btn">Guess</button>
+        </div>
+    </section>
+</body>
+</html>
